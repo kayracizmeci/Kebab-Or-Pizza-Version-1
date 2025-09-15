@@ -1,0 +1,10 @@
+answer = input("Pizza or Kebab? ").strip().casefold()
+
+if answer == "kebab":
+    print("Best Food. Correct Answer")
+elif answer == "pizza":
+    print("Well Pizza is not correct. Kebab.")
+else:
+    print("Well everything else is not correct. Kebab.")
+
+#What A difference from the first version :D
